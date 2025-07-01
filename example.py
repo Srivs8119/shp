@@ -28,9 +28,9 @@ for i in a:
 print(d)
 
 #example 4
-a=[1,2,1,2,1,4,5,6,7,73,8,8,2,2,1]
-max=0
+a=[11,42,31,62,51,4,5,6,7,73,8,8,26,82,571]
+min=a[0]
 for i in range(0,len(a)):
-    if max<a[i]:
-        max=a[i]
-print(max)
+    if min>a[i]:
+        min=a[i]
+print(min)
